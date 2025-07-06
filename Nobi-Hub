@@ -139,6 +139,10 @@ b:Button("No-Lag",function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV2.lua"))()
     print("Elym Winning")
 end)
+b:Button("คราฟของ",function()
+loadstring(game:HttpGet("https://lunor.dev/loader"))()
+    print("Elym Winning")
+end)
 
 b:DestroyGui()
 
